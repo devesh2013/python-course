@@ -11,9 +11,10 @@ price_per_kg = 15
 earnings = total * price_per_kg
 print("Total earnings     : Rs.", earnings)
 bags     = total // 25
-leftovwe = total % 25 
+leftover = total % 25 
 print("Fulls bags packed      :",bags)
 print("Leftover grain     :", leftover, "kg")
+last_year = 500
 print("Better than last year?   :",total > last_year)
 print("Same as last year?     :",total == last_year)
 print("At least as good?        :", total >= last_year)
@@ -22,4 +23,4 @@ print("After bonus crop       :",total,"kg")
 total -= 15
 print("After seed reserve :",total, "kg")
 bags = total // 25
-print("Finel bags packed    :", bags)   
+print("Final bags packed    :", bags)   
